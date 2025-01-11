@@ -1,5 +1,7 @@
 ## GitHub Action 在线编译
 
+基于 immortalwrt 源码构建，基础服务与科学上网插件以及必要网络工具插件。
+
 ## 主要源码
 
 [官方源码](https://github.com/openwrt/openwrt )    
