@@ -9,6 +9,9 @@
 - [lienol源码]( https://github.com/Lienol/openwrt ) 
 - [immortalwrt源码]( https://github.com/immortalwrt/immortalwrt )
 
+## ImmortalWrt官方发行固件 辅助检索站
+
+- [firmware-selector.immortalwrt.org](https://firmware-selector.immortalwrt.org/)
 
 ## 简单步骤
 
