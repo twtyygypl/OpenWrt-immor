@@ -28,18 +28,14 @@
 
 
 3，设置config
-- 进入config文件夹，需要用哪个分支的源码，就打开哪个文件夹。
+- 进入config文件夹，
    
 设置config文件，可以从本地设置好后，复制进去替换掉即可。
 
 
 4，添加插件或主题
 
--  进入config文件夹，需要用哪个分支的源码，就打开哪个文件夹。打开diy-part2.sh文件，电视盒子必须安装amlogic插件，格式如下：
-
-    #####Add a feed source
-    
-    echo 'src-git amlogic https://github.com/ophub/luci-app-amlogic' >>feeds.conf.default
+-  进入config文件夹，打开diy-part2.sh文件
     
    
 5，开始编译，
