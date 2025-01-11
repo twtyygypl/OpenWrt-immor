@@ -10,7 +10,7 @@
 - [immortalwrt源码]( https://github.com/immortalwrt/immortalwrt )
 
 
-## 使用方法
+## 简单步骤
 
 1，注册账号
 
@@ -42,3 +42,7 @@
  
  7，下载固件
  
+
+
+
+
