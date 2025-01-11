@@ -1,15 +1,10 @@
-## 云编译OpenWrt
+## GitHub Action 在线编译
 
-GitHub Action 在线编译服务可用于构建、测试、打包和部署项目，无需本地搭建或购买服务器。只需根据本仓库说明调整参数，即可编译OpenWrt，数小时后即可下载固件。
-
-说明：源码来自各位大佬分享，为了方便编译，做了一些修改，可以支持不同分支的opewrt源码，同时集成了打包img镜像的功能。
+## 主要源码
 
 [官方源码](https://github.com/openwrt/openwrt )    
-
 [lede源码](https://github.com/coolsnowwolf/lede)
-
 [lienol源码]( https://github.com/Lienol/openwrt ) 
-
 [immortalwrt源码]( https://github.com/immortalwrt/immortalwrt )
 
 
