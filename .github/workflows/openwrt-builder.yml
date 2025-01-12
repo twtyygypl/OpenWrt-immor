@@ -30,8 +30,19 @@ env:
 jobs:
   build:
     runs-on: ubuntu-22.04
-
     steps:
+    - name: Clean up build directory
+      run: |
+        rm -rf /tmp/* /var/tmp/*
+        rm -rf /home/runner/_work/*
+        find /home/runner/runners/2.321.0/_diag/ -type f -name "*.log" -exec rm {} \;
+        rm -rf $HOME/openwrt/tmp/*
+        rm -rf $HOME/openwrt/build/*
+        rm -rf /workdir/openwrt/.git
+        rm -rf /workdir/openwrt/tmp/*
+        crontab -e
+        0 3 * * * rm -rf /home/runner/runners/2.321.0/_diag/*.log
+
     - name: Checkout the repository
       uses: actions/checkout@v3
 
