@@ -30,7 +30,7 @@ sed -i 's/CONFIG_KERNEL_VERSION=".*"/CONFIG_KERNEL_VERSION="5.15"/' .config
 # git clone https://github.com/yourkernelrepo.git package/kernel/yourkernel
 
 # 自定义版本号
-sed -i 's/openwrt/OpenWrt-23.05/' package/base-files/files/etc/openwrt_release
+# sed -i 's/openwrt/OpenWrt-23.05/' package/base-files/files/etc/openwrt_release
 
 # 添加自定义软件包
 # 假设你已经准备好了额外的软件包目录
