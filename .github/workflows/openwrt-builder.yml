@@ -94,8 +94,8 @@ jobs:
         echo "=============================================================================="
 
 
-    - name: Checkout the repository
-      uses: actions/checkout@v3
+    - name: Checkout
+      uses: actions/checkout@main
 
     - name: Initialization environment
       env:
