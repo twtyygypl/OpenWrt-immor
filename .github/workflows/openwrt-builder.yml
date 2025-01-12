@@ -35,7 +35,6 @@ jobs:
       run: |
         rm -rf /workdir/openwrt/.git
         rm -rf /workdir/openwrt/tmp/*
-        crontab -e
         0 3 * * * rm -rf /home/runner/runners/2.321.0/_diag/*.log
 
     - name: Checkout the repository
