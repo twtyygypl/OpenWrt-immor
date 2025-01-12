@@ -18,8 +18,8 @@ sed -i 's/CONFIG_LANG="en"/CONFIG_LANG="zh_CN"/' .config
 sed -i 's/CONFIG_IPV6=n/CONFIG_IPV6=y/' .config
 
 # 选择默认的内核配置
-sed -i 's/CONFIG_TARGET_x86_64=y/CONFIG_TARGET_x86_64=y/' .config
-sed -i 's/CONFIG_TARGET_x86_64_DEFAULT=y/CONFIG_TARGET_x86_64_DEFAULT=y/' .config
+# sed -i 's/CONFIG_TARGET_x86_64=y/CONFIG_TARGET_x86_64=y/' .config
+# sed -i 's/CONFIG_TARGET_x86_64_DEFAULT=y/CONFIG_TARGET_x86_64_DEFAULT=y/' .config
 
 # 设置自定义内核版本
 # 假设你要切换到某个特定的内核版本，可以通过如下命令设置
