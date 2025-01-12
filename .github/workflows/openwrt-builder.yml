@@ -33,8 +33,6 @@ jobs:
     steps:
     - name: Clean up build directory
       run: |
-        sudo rm -rf /tmp/* /var/tmp/*
-        sudo rm -rf /home/runner/_work/*
         find /home/runner/runners/2.321.0/_diag/ -type f -name "*.log" -exec rm {} \;
         rm -rf $HOME/openwrt/tmp/*
         rm -rf $HOME/openwrt/build/*
