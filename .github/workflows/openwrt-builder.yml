@@ -34,8 +34,6 @@ jobs:
     - name: Clean up build directory
       run: |
         find /home/runner/runners/2.321.0/_diag/ -type f -name "*.log" -exec rm {} \;
-        rm -rf $HOME/openwrt/tmp/*
-        rm -rf $HOME/openwrt/build/*
         rm -rf /workdir/openwrt/.git
         rm -rf /workdir/openwrt/tmp/*
         crontab -e
