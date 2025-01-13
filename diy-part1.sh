@@ -1,7 +1,7 @@
 # diy-part1.sh 脚本(用于自定义设置和修改)
 
 # diy-part1.sh 通常用于做一些全局性的设置，比如添加默认包、修改内核配置、修改主机名等。
---------------------------------------------------------
+# --------------------------------------------------------
 
 #!/bin/bash
 
@@ -44,5 +44,4 @@ sed -i 's/immortalwrt/OpenWrt/g' package/base-files/files/bin/config_generate
 # Add a feed source
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-
 
