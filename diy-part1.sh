@@ -47,4 +47,8 @@ sed -i 's/immortalwrt/OpenWrt/g' package/base-files/files/bin/config_generate
 
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-# echo 'src-git mosdns https://github.com/sbwml/luci-app-mosdns' >>feeds.conf.default
+echo 'src-git mosdns https://github.com/sbwml/luci-app-mosdns' >>feeds.conf.default
+
+git clone https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
+
+git clone https://github.com/MageChiu/luci-app-ssr-plus package/luci-app-ssr-plus
