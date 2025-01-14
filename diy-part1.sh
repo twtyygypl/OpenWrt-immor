@@ -54,3 +54,5 @@ echo 'src-git adguardhome https://github.com/kenzok8/openwrt-packages' >>feeds.c
 # git clone https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
 
 git clone https://github.com/MageChiu/luci-app-ssr-plus package/luci-app-ssr-plus
+
+
