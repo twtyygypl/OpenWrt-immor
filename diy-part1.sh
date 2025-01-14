@@ -42,6 +42,9 @@ sed -i 's/immortalwrt/OpenWrt/g' package/base-files/files/bin/config_generate
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
+
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
+# echo 'src-git mosdns https://github.com/sbwml/luci-app-mosdns' >>feeds.conf.default
