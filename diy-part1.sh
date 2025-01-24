@@ -9,13 +9,13 @@
 sed -i 's/immortalwrt/OpenWrt/g' package/base-files/files/bin/config_generate
 
 # 修改默认主题
-# sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 # 设置默认语言为简体中文
-# sed -i 's/CONFIG_LANG="en"/CONFIG_LANG="zh_CN"/' .config
+sed -i 's/CONFIG_LANG="en"/CONFIG_LANG="zh_CN"/' .config
 
 # 开启某些额外的功能（例如 IPv6）
-# sed -i 's/CONFIG_IPV6=n/CONFIG_IPV6=y/' .config
+sed -i 's/CONFIG_IPV6=n/CONFIG_IPV6=y/' .config
 
 # 选择默认的内核配置
 # sed -i 's/CONFIG_TARGET_x86_64=y/CONFIG_TARGET_x86_64=y/' .config
@@ -47,12 +47,12 @@ sed -i 's/immortalwrt/OpenWrt/g' package/base-files/files/bin/config_generate
 
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-echo 'src-git mosdns https://github.com/sbwml/luci-app-mosdns' >>feeds.conf.default
+# echo 'src-git mosdns https://github.com/sbwml/luci-app-mosdns' >>feeds.conf.default
 
-echo 'src-git adguardhome https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+# echo 'src-git adguardhome https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 
 # git clone https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
 
-git clone https://github.com/MageChiu/luci-app-ssr-plus package/luci-app-ssr-plus
+# git clone https://github.com/MageChiu/luci-app-ssr-plus package/luci-app-ssr-plus
 
 
